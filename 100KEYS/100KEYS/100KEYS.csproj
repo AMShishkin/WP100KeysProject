@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F446E6A-27F3-485E-BDA7-629F6197FAB3}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KEYSAPP</RootNamespace>
+    <AssemblyName>100KEYS</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>en</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>100KEYS.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>KEYSAPP.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <ExpressionBlendVersion>5.0.40218.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AppHelper\AppHelper.cs" />
+    <Compile Include="Pages\GamePage.xaml.cs">
+      <DependentUpon>GamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InfoPage.xaml.cs">
+      <DependentUpon>InfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SetPage.xaml.cs">
+      <DependentUpon>SetPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\KeysDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KeysDB.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="Pages\GamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\InfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SetPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png" />
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\ApplicationIcon.png" />
+    <Content Include="Assets\BDark.jpg" />
+    <Content Include="Assets\BLight.jpg" />
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png" />
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\KEY1.jpg" />
+    <Content Include="Resources\KEY10.jpg" />
+    <Content Include="Resources\KEY100.jpg" />
+    <Content Include="Resources\KEY11.jpg" />
+    <Content Include="Resources\KEY12.jpg" />
+    <Content Include="Resources\KEY13.jpg" />
+    <Content Include="Resources\KEY14.jpg" />
+    <Content Include="Resources\KEY15.jpg" />
+    <Content Include="Resources\KEY16.jpg" />
+    <Content Include="Resources\KEY17.jpg" />
+    <Content Include="Resources\KEY18.jpg" />
+    <Content Include="Resources\KEY19.jpg" />
+    <Content Include="Resources\KEY2.jpg" />
+    <Content Include="Resources\KEY20.jpg" />
+    <Content Include="Resources\KEY21.jpg" />
+    <Content Include="Resources\KEY22.jpg" />
+    <Content Include="Resources\KEY23.jpg" />
+    <Content Include="Resources\KEY24.jpg" />
+    <Content Include="Resources\KEY25.jpg" />
+    <Content Include="Resources\KEY26.jpg" />
+    <Content Include="Resources\KEY27.JPG" />
+    <Content Include="Resources\KEY28.JPG" />
+    <Content Include="Resources\KEY29.jpg" />
+    <Content Include="Resources\KEY3.jpg" />
+    <Content Include="Resources\KEY30.jpg" />
+    <Content Include="Resources\KEY31.jpg" />
+    <Content Include="Resources\KEY32.jpg" />
+    <Content Include="Resources\KEY33.jpg" />
+    <Content Include="Resources\KEY34.jpg" />
+    <Content Include="Resources\KEY35.jpg" />
+    <Content Include="Resources\KEY36.jpg" />
+    <Content Include="Resources\KEY37.jpg" />
+    <Content Include="Resources\KEY38.jpg" />
+    <Content Include="Resources\KEY39.jpg" />
+    <Content Include="Resources\KEY4.jpg" />
+    <Content Include="Resources\KEY40.jpg" />
+    <Content Include="Resources\KEY41.jpg" />
+    <Content Include="Resources\KEY42.jpg" />
+    <Content Include="Resources\KEY43.jpg" />
+    <Content Include="Resources\KEY44.jpg" />
+    <Content Include="Resources\KEY45.jpg" />
+    <Content Include="Resources\KEY46.jpg" />
+    <Content Include="Resources\KEY47.jpg" />
+    <Content Include="Resources\KEY48.jpg" />
+    <Content Include="Resources\KEY49.jpg" />
+    <Content Include="Resources\KEY5.jpg" />
+    <Content Include="Resources\KEY50.jpg" />
+    <Content Include="Resources\KEY51.jpg" />
+    <Content Include="Resources\KEY52.jpg" />
+    <Content Include="Resources\KEY53.jpg" />
+    <Content Include="Resources\KEY54.jpg" />
+    <Content Include="Resources\KEY55.jpg" />
+    <Content Include="Resources\KEY56.jpg" />
+    <Content Include="Resources\KEY57.jpg" />
+    <Content Include="Resources\KEY58.jpg" />
+    <Content Include="Resources\KEY59.jpg" />
+    <Content Include="Resources\KEY6.jpg" />
+    <Content Include="Resources\KEY60.jpg" />
+    <Content Include="Resources\KEY61.jpg" />
+    <Content Include="Resources\KEY62.jpg" />
+    <Content Include="Resources\KEY63.jpg" />
+    <Content Include="Resources\KEY64.jpg" />
+    <Content Include="Resources\KEY65.jpg" />
+    <Content Include="Resources\KEY66.jpg" />
+    <Content Include="Resources\KEY67.jpg" />
+    <Content Include="Resources\KEY68.jpg" />
+    <Content Include="Resources\KEY69.jpg" />
+    <Content Include="Resources\KEY7.jpg" />
+    <Content Include="Resources\KEY70.jpg" />
+    <Content Include="Resources\KEY71.jpg" />
+    <Content Include="Resources\KEY72.jpg" />
+    <Content Include="Resources\KEY73.jpg" />
+    <Content Include="Resources\KEY74.jpg" />
+    <Content Include="Resources\KEY75.jpg" />
+    <Content Include="Resources\KEY76.jpg" />
+    <Content Include="Resources\KEY77.jpg" />
+    <Content Include="Resources\KEY78.jpg" />
+    <Content Include="Resources\KEY79.jpg" />
+    <Content Include="Resources\KEY8.jpg" />
+    <Content Include="Resources\KEY80.jpg" />
+    <Content Include="Resources\KEY81.jpg" />
+    <Content Include="Resources\KEY82.jpg" />
+    <Content Include="Resources\KEY83.jpg" />
+    <Content Include="Resources\KEY84.jpg" />
+    <Content Include="Resources\KEY85.jpg" />
+    <Content Include="Resources\KEY86.jpg" />
+    <Content Include="Resources\KEY87.jpg" />
+    <Content Include="Resources\KEY88.jpg" />
+    <Content Include="Resources\KEY89.jpg" />
+    <Content Include="Resources\KEY9.jpg" />
+    <Content Include="Resources\KEY90.jpg" />
+    <Content Include="Resources\KEY91.jpg" />
+    <Content Include="Resources\KEY92.jpg" />
+    <Content Include="Resources\KEY93.jpg" />
+    <Content Include="Resources\KEY94.jpg" />
+    <Content Include="Resources\KEY95.jpg" />
+    <Content Include="Resources\KEY96.jpg" />
+    <Content Include="Resources\KEY97.jpg" />
+    <Content Include="Resources\KEY98.jpg" />
+    <Content Include="Resources\KEY99.jpg" />
+    <Content Include="Sounds\snd_click.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\snd_eff_click_true.wav" />
+    <Content Include="Sounds\snd_eff_click_false.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AdDuplex.WindowsPhone">
+      <HintPath>..\packages\AdDuplexWP8.2.8.1.0\lib\wp8\AdDuplex.WindowsPhone.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\packages\Microsoft.Net.Http.2.1.10\lib\sl4-windowsphone71\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.1.10\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.1.10\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <BlendEmbeddedFont Include="Fonts\ice_pixel-7.ttf">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\KeysDB.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KeysDB.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\WindowsPhone\v8.0\Microsoft.Expression.Blend.WindowsPhone.targets" />
+</Project>

@@ -1,0 +1,152 @@
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\100KEYS.dll
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\100KEYS.pdb
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\AppManifest.xaml
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\_100KEYS_Debug_AnyCPU.xap
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\App.g.cs
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\100KEYS.g.resources
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\100KEYS.dll
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\100KEYS.pdb
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\XapCacheFile.xml
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\GoogleAnalytics.Core.dll
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\GoogleAnalytics.dll
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\System.Net.Http.dll
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\System.Net.Http.Extensions.dll
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\System.Net.Http.Primitives.dll
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\GoogleAnalytics.pdb
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\GoogleAnalytics.Core.pdb
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\System.Net.Http.xml
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\System.Net.Http.Extensions.xml
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\Bin\Debug\System.Net.Http.Primitives.xml
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\Pages\MainPage.g.cs
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\Pages\GamePage.g.cs
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\Pages\InfoPage.g.cs
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\Pages\SetPage.g.cs
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\Pages\SettingsPage.g.cs
+c:\users\artem shishkin\documents\visual studio 2012\Projects\100KEYS\100KEYS\obj\Debug\100KEYS.csprojResolveAssemblyReference.cache
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\AppManifest.xaml
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\GoogleAnalytics.Core.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\GoogleAnalytics.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\System.Net.Http.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\GoogleAnalytics.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\GoogleAnalytics.Core.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\System.Net.Http.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\App.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\Pages\GamePage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\Pages\InfoPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\Pages\SetPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\XapCacheFile.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\AdDuplex.WindowsPhone.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\100KEYS.csproj.GenerateResource.Cache
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\KEYSAPP.Resources.KeysDB.resources
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\Sounds\snd_click.wav
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\100KEYSAPP.xap
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\_100_KEYS.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\Bin\Debug\_100_KEYS.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\_100_KEYS.g.resources
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\_100_KEYS.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS\100KEYS\obj\Debug\_100_KEYS.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\Sounds\snd_click.wav
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\100KEYS.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\100KEYS.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\AppManifest.xaml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\100KEYS.xap
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\AdDuplex.WindowsPhone.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\GoogleAnalytics.Core.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\GoogleAnalytics.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\System.Net.Http.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\GoogleAnalytics.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\GoogleAnalytics.Core.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\System.Net.Http.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\Bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\App.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\Pages\GamePage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\Pages\InfoPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\Pages\SetPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\100KEYS.g.resources
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\KEYSAPP.Resources.KeysDB.resources
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\100KEYS.csproj.GenerateResource.Cache
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\100KEYS.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\100KEYS.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.0.0\100KEYS\obj\Debug\XapCacheFile.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\Sounds\snd_click.wav
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\100KEYS.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\100KEYS.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\AppManifest.xaml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\100KEYS.xap
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\AdDuplex.WindowsPhone.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\GoogleAnalytics.Core.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\GoogleAnalytics.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\System.Net.Http.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\GoogleAnalytics.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\GoogleAnalytics.Core.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\System.Net.Http.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\Bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\App.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\Pages\GamePage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\Pages\InfoPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\Pages\SetPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\100KEYS.g.resources
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\KEYSAPP.Resources.KeysDB.resources
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\100KEYS.csproj.GenerateResource.Cache
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\100KEYS.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\100KEYS.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.1.5.0\100KEYS\obj\Debug\XapCacheFile.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\Sounds\snd_click.wav
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\100KEYS.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\100KEYS.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\AppManifest.xaml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\100KEYS.xap
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\AdDuplex.WindowsPhone.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\System.Net.Http.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\System.Net.Http.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\Bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\App.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\Pages\GamePage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\Pages\InfoPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\Pages\SetPage.g.cs
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\100KEYS.g.resources
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\KEYSAPP.Resources.KeysDB.resources
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\100KEYS.csproj.GenerateResource.Cache
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\100KEYS.dll
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\100KEYS.pdb
+C:\Users\Artem Shishkin\Desktop\100KEYS_1.2.0.0\100KEYS\obj\Debug\XapCacheFile.xml

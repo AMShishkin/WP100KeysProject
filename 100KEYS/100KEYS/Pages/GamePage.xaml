@@ -1,0 +1,196 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="KEYSAPP.Pages.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:adduplex="clr-namespace:AdDuplex;assembly=AdDuplex.WindowsPhone"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d">
+    <phone:PhoneApplicationPage.Resources>
+        <Storyboard x:Name="AGPBadCode">
+            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="TBPass">
+                <EasingColorKeyFrame KeyTime="0" Value="#FFCD0000"/>
+                <EasingColorKeyFrame KeyTime="0:0:0.2" Value="#FFCD0000"/>
+                <EasingColorKeyFrame KeyTime="0:0:0.4" Value="Black"/>
+            </ColorAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="AGPGood">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButDel">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey5">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey9">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey6">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey7">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey8">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButKey0">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButEnter">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.284" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="TBPass">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="RecPass">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot представляет корневую сетку, где размещается все содержимое страницы-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/100KEYS;component/Assets/bg_8bit.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="800"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FFD2D2D2" Height="368" Margin="5,40,5,0" Stroke="Black" StrokeThickness="2" VerticalAlignment="Top"/>
+        <Rectangle x:Name="RecTitle" Fill="Black" Height="35" Margin="0" Stroke="Black" VerticalAlignment="Top" StrokeThickness="0"/>
+        <TextBlock x:Name="TBIndex" HorizontalAlignment="Left" Height="35" Margin="20,0,0,0" TextWrapping="Wrap" Text="#4444" VerticalAlignment="Top" Width="100" Foreground="#FFC72F16" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="45.333"/>
+        <TextBlock x:Name="Keys" HorizontalAlignment="Right" Height="27" Margin="0,8,20,0" TextWrapping="Wrap" Text="Keys: 123" VerticalAlignment="Top" Width="110" TextAlignment="Center" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="29.333" Foreground="#FFD2D0D2"/>
+        <Image x:Name="Pic" Height="360" Margin="9,44,9,0" VerticalAlignment="Top" Source="/Resources/KEY2.jpg" Stretch="Fill" DoubleTap="Pic_DoubleTap"/>
+        <Rectangle x:Name="RecPass" Fill="#FFD2D2D2" Height="62" Margin="103,415,103,0" Stroke="Black" StrokeThickness="2" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <CompositeTransform/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBlock x:Name="TBPass" Height="62" Margin="106,415,106,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="76" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" Foreground="Black" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" Text="1234">
+            <TextBlock.RenderTransform>
+                <CompositeTransform/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Button x:Name="ButKey" Content="?" Height="90" Margin="-7,401,362,0" VerticalAlignment="Top" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButDel" Content="&lt;" Height="90" Margin="362,401,-7,0" VerticalAlignment="Top" Background="#FFD2D2D2" BorderBrush="Black" Foreground="Black" BorderThickness="2" FontSize="66.667" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" Click="ButDel_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButKey1" Content="1" Height="90" Margin="10,0,350,211" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey1_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButKey2" Content="2" Height="90" Margin="123,0,237,211" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey2_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButKey3" Content="3" Height="90" Margin="237,0,123,211" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey3_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButKey4" Content="4" Height="90" Margin="350,0,10,211" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey4_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButKey5" Content="5" Height="90" Margin="10,0,350,133" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey5_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButKey6" Content="6" Height="90" Margin="123,0,237,133" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey6_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButKey7" Content="7" Height="90" Margin="237,0,123,133" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey7_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButKey8" Content="8" Height="90" Margin="350,0,10,133" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey8_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButKey9" Content="9" Height="90" Margin="10,0,350,55" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey9_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButKey0" Content="0" Height="90" Margin="123,0,237,55" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButKey0_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButEnter" Content="ENTER" Height="90" Margin="237,0,10,55" VerticalAlignment="Bottom" Background="#FFD2D2D2" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="66.667" Click="ButEnter_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Image x:Name="BigPic" Margin="-160,155" Source="/Resources/KEY1.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Visibility="Collapsed" ManipulationStarted="BigPic_ManipulationStarted">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="90"/>
+            </Image.RenderTransform>
+        </Image>
+
+        <adduplex:AdControl x:Name="adDuplexAd" AppId="133535" VerticalAlignment="Bottom" Height="65" Margin="0,0,0,-15"/>
+        <TextBlock x:Name="TBPassCount" Height="35" Margin="140,0" TextWrapping="Wrap" Text="*" VerticalAlignment="Top" Foreground="#FFD2D2D2" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="40" TextAlignment="Center"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>

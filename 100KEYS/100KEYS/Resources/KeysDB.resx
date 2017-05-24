@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="KEY1" xml:space="preserve">
+    <value>2000</value>
+  </data>
+  <data name="KEY10" xml:space="preserve">
+    <value>3123</value>
+  </data>
+  <data name="KEY100" xml:space="preserve">
+    <value>127</value>
+  </data>
+  <data name="KEY11" xml:space="preserve">
+    <value>1672</value>
+  </data>
+  <data name="KEY12" xml:space="preserve">
+    <value>2014</value>
+  </data>
+  <data name="KEY13" xml:space="preserve">
+    <value>1520</value>
+  </data>
+  <data name="KEY14" xml:space="preserve">
+    <value>3232</value>
+  </data>
+  <data name="KEY15" xml:space="preserve">
+    <value>2008</value>
+  </data>
+  <data name="KEY16" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KEY17" xml:space="preserve">
+    <value>209</value>
+  </data>
+  <data name="KEY18" xml:space="preserve">
+    <value>1010</value>
+  </data>
+  <data name="KEY19" xml:space="preserve">
+    <value>3455</value>
+  </data>
+  <data name="KEY2" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="KEY20" xml:space="preserve">
+    <value>314</value>
+  </data>
+  <data name="KEY21" xml:space="preserve">
+    <value>5504</value>
+  </data>
+  <data name="KEY22" xml:space="preserve">
+    <value>1064</value>
+  </data>
+  <data name="KEY23" xml:space="preserve">
+    <value>1986</value>
+  </data>
+  <data name="KEY24" xml:space="preserve">
+    <value>301</value>
+  </data>
+  <data name="KEY25" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="KEY26" xml:space="preserve">
+    <value>1961</value>
+  </data>
+  <data name="KEY27" xml:space="preserve">
+    <value>404</value>
+  </data>
+  <data name="KEY28" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="KEY29" xml:space="preserve">
+    <value>8571</value>
+  </data>
+  <data name="KEY3" xml:space="preserve">
+    <value>2926</value>
+  </data>
+  <data name="KEY30" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="KEY31" xml:space="preserve">
+    <value>8192</value>
+  </data>
+  <data name="KEY32" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="KEY33" xml:space="preserve">
+    <value>3310</value>
+  </data>
+  <data name="KEY34" xml:space="preserve">
+    <value>365</value>
+  </data>
+  <data name="KEY35" xml:space="preserve">
+    <value>007</value>
+  </data>
+  <data name="KEY36" xml:space="preserve">
+    <value>410</value>
+  </data>
+  <data name="KEY37" xml:space="preserve">
+    <value>747</value>
+  </data>
+  <data name="KEY38" xml:space="preserve">
+    <value>3433</value>
+  </data>
+  <data name="KEY39" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="KEY4" xml:space="preserve">
+    <value>1111</value>
+  </data>
+  <data name="KEY40" xml:space="preserve">
+    <value>2012</value>
+  </data>
+  <data name="KEY41" xml:space="preserve">
+    <value>0214</value>
+  </data>
+  <data name="KEY42" xml:space="preserve">
+    <value>4263</value>
+  </data>
+  <data name="KEY43" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="KEY44" xml:space="preserve">
+    <value>1991</value>
+  </data>
+  <data name="KEY45" xml:space="preserve">
+    <value>666</value>
+  </data>
+  <data name="KEY46" xml:space="preserve">
+    <value>852</value>
+  </data>
+  <data name="KEY47" xml:space="preserve">
+    <value>5030</value>
+  </data>
+  <data name="KEY48" xml:space="preserve">
+    <value>3000</value>
+  </data>
+  <data name="KEY49" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="KEY5" xml:space="preserve">
+    <value>8848</value>
+  </data>
+  <data name="KEY50" xml:space="preserve">
+    <value>356</value>
+  </data>
+  <data name="KEY51" xml:space="preserve">
+    <value>119</value>
+  </data>
+  <data name="KEY52" xml:space="preserve">
+    <value>360</value>
+  </data>
+  <data name="KEY53" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="KEY54" xml:space="preserve">
+    <value>5778</value>
+  </data>
+  <data name="KEY55" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="KEY56" xml:space="preserve">
+    <value>7108</value>
+  </data>
+  <data name="KEY57" xml:space="preserve">
+    <value>134</value>
+  </data>
+  <data name="KEY58" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="KEY59" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="KEY6" xml:space="preserve">
+    <value>2048</value>
+  </data>
+  <data name="KEY60" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="KEY61" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="KEY62" xml:space="preserve">
+    <value>033</value>
+  </data>
+  <data name="KEY63" xml:space="preserve">
+    <value>1945</value>
+  </data>
+  <data name="KEY64" xml:space="preserve">
+    <value>1920</value>
+  </data>
+  <data name="KEY65" xml:space="preserve">
+    <value>9806</value>
+  </data>
+  <data name="KEY66" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="KEY67" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="KEY68" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="KEY69" xml:space="preserve">
+    <value>545</value>
+  </data>
+  <data name="KEY7" xml:space="preserve">
+    <value>9696</value>
+  </data>
+  <data name="KEY70" xml:space="preserve">
+    <value>1914</value>
+  </data>
+  <data name="KEY71" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="KEY72" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="KEY73" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="KEY74" xml:space="preserve">
+    <value>1947</value>
+  </data>
+  <data name="KEY75" xml:space="preserve">
+    <value>1937</value>
+  </data>
+  <data name="KEY76" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="KEY77" xml:space="preserve">
+    <value>01</value>
+  </data>
+  <data name="KEY78" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="KEY79" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="KEY8" xml:space="preserve">
+    <value>2342</value>
+  </data>
+  <data name="KEY80" xml:space="preserve">
+    <value>739</value>
+  </data>
+  <data name="KEY81" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="KEY82" xml:space="preserve">
+    <value>350</value>
+  </data>
+  <data name="KEY83" xml:space="preserve">
+    <value>8694</value>
+  </data>
+  <data name="KEY84" xml:space="preserve">
+    <value>4377</value>
+  </data>
+  <data name="KEY85" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="KEY86" xml:space="preserve">
+    <value>269</value>
+  </data>
+  <data name="KEY87" xml:space="preserve">
+    <value>8382</value>
+  </data>
+  <data name="KEY88" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="KEY89" xml:space="preserve">
+    <value>958</value>
+  </data>
+  <data name="KEY9" xml:space="preserve">
+    <value>1980</value>
+  </data>
+  <data name="KEY90" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="KEY91" xml:space="preserve">
+    <value>452</value>
+  </data>
+  <data name="KEY92" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="KEY93" xml:space="preserve">
+    <value>121</value>
+  </data>
+  <data name="KEY94" xml:space="preserve">
+    <value>240</value>
+  </data>
+  <data name="KEY95" xml:space="preserve">
+    <value>2015</value>
+  </data>
+  <data name="KEY96" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="KEY97" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="KEY98" xml:space="preserve">
+    <value>1492</value>
+  </data>
+  <data name="KEY99" xml:space="preserve">
+    <value>88</value>
+  </data>
+</root>

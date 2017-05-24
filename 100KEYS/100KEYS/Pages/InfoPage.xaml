@@ -1,0 +1,75 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="KEYSAPP.Pages.InfoPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d">
+	<phone:PhoneApplicationPage.Resources>
+		<Storyboard x:Name="AIPStart">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="But100Keys">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButOtherApps">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButRate">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButContct">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot представляет корневую сетку, где размещается все содержимое страницы-->
+    <Grid x:Name="LayoutRoot">
+    	<Grid.Background>
+    		<ImageBrush Stretch="Fill" ImageSource="/100KEYS;component/Assets/bg_8bit.jpg"/>
+    	</Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="800"/>
+        </Grid.RowDefinitions>
+    	<Rectangle x:Name="RecTitle" Fill="Black" Height="35" Margin="0" Stroke="Black" VerticalAlignment="Top" StrokeThickness="0"/>
+    	<TextBlock x:Name="Keys" HorizontalAlignment="Right" Height="27" Margin="0,8,15,0" TextWrapping="Wrap" Text="Keys: 123" VerticalAlignment="Top" Width="120" TextAlignment="Center" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="29.333" Foreground="#FFD2D2D2"/>
+        <TextBlock x:Name="BaseInfo" Height="410" Margin="0,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="46.667" TextAlignment="Center" Foreground="#FFD2D2D2">
+    		<Run Text="WARNING!"/>
+    		<LineBreak/>
+    		<Run Text="This is a very challenging game!"/>
+    		<LineBreak/>
+    		<Run/>
+    		<LineBreak/>
+    		<Run Text="-HOW TO PLAY-"/>
+    		<LineBreak/>
+    		<Run Text="Guess security code to continue. The code length of 0 to 4 characters"/>
+    		<LineBreak/>
+    		<Run/>
+    		<LineBreak/>
+    		<Run/>
+        </TextBlock>
+        <Button x:Name="But100Keys" Content="+100 Keys &gt;&gt; $" Margin="30,0,30,252" BorderThickness="2" Background="#FFD2D2D2" BorderBrush="Black" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="48" Height="80" VerticalAlignment="Bottom" Click="But100Keys_Click"/>
+    	<Button x:Name="ButOtherApps" Content="+5 Keys &gt;&gt; My Apps" Margin="30,0,30,172" BorderThickness="2" Background="#FFD2D2D2" BorderBrush="Black" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="48" Height="80" VerticalAlignment="Bottom" Click="ButOtherApps_Click"/>
+    	<Button x:Name="ButRate" Content="+10 Keys &gt;&gt; Rate" Margin="30,0,30,92" BorderThickness="2" Background="#FFD2D2D2" BorderBrush="Black" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="48" Height="80" VerticalAlignment="Bottom" Click="ButRate_Click"/>
+    	<Button x:Name="ButContct" Content="Contact Me" Margin="30,0,30,12" BorderThickness="2" Background="#FFD2D2D2" BorderBrush="Black" Foreground="Black" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="48" Height="80" VerticalAlignment="Bottom" Click="ButContct_Click"/>
+    	<TextBlock x:Name="PTitle" HorizontalAlignment="Left" Height="35" Margin="20,0,0,0" TextWrapping="Wrap" Text="100KEYS" VerticalAlignment="Top" Width="140" Foreground="#FFC72F16" FontFamily="/100KEYS;component/Fonts/Fonts.zip#Ice Pixel7" FontSize="45.333"/>
+
+        <!--TitlePanel содержит имя приложения и заголовок страницы-->
+
+        <!--ContentPanel – поместите здесь дополнительное содержимое-->
+    </Grid>
+
+</phone:PhoneApplicationPage>
